@@ -1,19 +1,20 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int a,b;
-    cout<<"Enter the first number: ";
+    char a;
+    cout<<"Enter the character: ";
     cin>>a;
-    cout<<"Enter the second number: ";
-    cin>>b;
-    if (a<b){
-        cout<<"A is less then B";
+    if(a>=48 && a<=57){
+        cout<<"Numeric Char";
     }
-    else if (a==b){
-        cout<<"A is equal to B";
+    else if(a>=65 && a<=90){
+        cout<<"Uppercase Char";
+    }
+    else if(a>=97 && a<=122){
+        cout<<"Lowercase Char";
     }
     else{
-        cout<<"B is less then A";
+        cout<<"Special Char";
     }
 return 0;
 }
