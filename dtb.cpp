@@ -1,3 +1,5 @@
+//decimal to binary conversion
+
 #include <iostream>
 #include <math.h>
 using namespace std;
