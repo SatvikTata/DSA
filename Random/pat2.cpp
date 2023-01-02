@@ -4,5 +4,24 @@ int main(){
     int a;
     cout<<"Enter the number of rows you want: ";
     cin>>a;
+    for(int i=1;i<=a;i++){
+        if(i<=a/2){
+        for(int j=a;j>i;j--){
+            cout<<" ";
+        }
+        for(int k=1;k<=((2*i)-1);k++){
+            cout<<"*";
+        }
+        }
+        else{
+            for(int j=1;j<i;j++){
+            cout<<" ";
+        }
+        for(int k=1;k<=((i*(-2))+((2*a)+1));k++){
+            cout<<"*";
+        }
+        }
+        cout<<endl;
+    }
 return 0;
 }
