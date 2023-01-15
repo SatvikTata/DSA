@@ -12,3 +12,9 @@ Day-1:
 4.  Bitwise operators
 5.  5 Leetcode question
 6.  18+ Patterns using loops
+
+
+Day-2:
+1.  Printing Patterns for Logic Building
+2.  Switch Statements
+3.  Functions
