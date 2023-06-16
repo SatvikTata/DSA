@@ -19,7 +19,7 @@ int getMin(int arr[],int size){
 
 
 int main(){
-    int arr[10]={1,2,34,4,5,6,7,8,9,10};
+    int arr[10]={1,52,34,64,35,16,77,8,19,10};
     int size=10;
     int max=getMax(arr,size);
     int min=getMin(arr,size);
